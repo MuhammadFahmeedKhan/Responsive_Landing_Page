@@ -1,0 +1,264 @@
+@media(max-width:768px){
+
+    .nav{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        height: 55vh;
+        display: none;
+        background-color: rgb(74, 35, 90);
+        position: absolute;
+        top:8vh;
+        left: 0;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    nav ul li a{
+    font-size: .8rem;
+}
+    nav .search{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .search input{
+        padding:4px;
+        width: 100px;
+    }
+    .search button{
+        padding: 4px;
+    }
+    .search button i{
+        font-size: .7rem;
+    }
+    
+    nav .fa-bars{
+        display: block;
+        padding-left: .9rem;
+        padding-right: .9rem;
+    }
+    
+    #hid{
+        display: block;
+        font-size: 1rem;
+        text-align: center;
+        position: absolute;
+        left:50%;
+        transform: rotateY(2px);
+    }
+    .content{
+        width: 70%;
+    }
+    .content h1{
+        font-size: 3rem;
+    }
+    .content p{
+        font-size: .7rem;
+        padding-top: 1rem;
+    }
+    .main_box{
+    padding-bottom: 1.7rem;
+    }
+    .content button{
+        padding:8px 30px;
+        border-radius: 8px;
+        font-size: .7rem;
+    }
+    .login h1, .registration h1{
+        font-size: 2rem;
+    }
+    .login input, .registration input{
+        padding:10px 35px;
+    }
+    .login button, .registration button{
+        padding:10px 35px;
+    }
+    .about{
+        padding-bottom: 1rem;
+    }
+    .about h1{
+        font-size: 2rem;
+    }
+    .text p{
+        font-size: .8rem;
+    }
+    .contact h1{
+        font-size: 2rem;
+    }
+    .col-1, .col-2, .col-3, i{
+        font-size: 1.5rem;
+    }
+    .col-1, .col-2, .col-3, h2{
+        font-size: 1.2rem;
+    }
+    .col-1, .col-2, .col-3, p{
+        font-size: .5rem;
+        text-align: center;
+        padding-left: .3rem;
+        padding-right: .3rem;
+        padding-bottom: 1.5rem;
+        padding-top: .8rem;
+    }
+    .gallery h1{
+        font-size: 2.5rem;
+    }
+        
+    .pic{
+        width: 45%;
+    }
+    .subfoot{
+        width: 40%;
+    }
+    .social .icon{
+        width: 15%;
+    }
+    .apppic img{
+        width:50%;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer p, .footer span{
+        padding-top: 1rem;
+    }
+}
+
+
+@media(max-width:320px){
+
+    .nav{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        height: 55vh;
+        display: none;
+        background-color: rgb(74, 35, 90);
+        position: absolute;
+        top:8vh;
+        left: 0;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    nav ul li a{
+    font-size: .8rem;
+}
+    nav .search{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .search input{
+        padding:4px;
+        width: 100px;
+    }
+    .search button{
+        padding: 4px;
+    }
+    .search button i{
+        font-size: .7rem;
+    }
+    
+    nav .fa-bars{
+        display: block;
+        padding-left: .9rem;
+        padding-right: .9rem;
+    }
+    
+    #hid{
+        display: block;
+        font-size: 1rem;
+        text-align: center;
+        position: absolute;
+        left:50%;
+        transform: rotateY(2px);
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1{
+        font-size: 1.5rem;
+    }
+    .content p{
+        font-size: .7rem;
+    }
+    .content button{
+        padding:5px 22px;
+        border-radius: 5px;
+        font-size: .6rem;
+    }
+    .main_box{
+    flex-direction: column;
+    padding-top: 3rem;
+    }
+
+    .login, .registration{
+        width: 100%;
+    }
+    .login h1, .registration h1{
+        font-size: 1.5rem;
+    }
+    .login input, .registration input{
+        padding:10px 25px;
+    }
+    .login button, .registration button{
+        padding:8px 22px;
+    }
+    .about h1{
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    .cont{
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    .text:hover{
+        transform: scale(1.1);
+    }
+    .text{
+        width: 85%;
+    }
+    .text:nth-child(2){
+        margin-top: 2rem;
+    }
+    .contact h1{
+        font-size: 2rem;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-1, .col-2, .col-3{
+        width: 80%;
+    }
+    .col-1, .col-2, .col-3, i{
+        font-size: 1.5rem;
+    }
+    .col-1, .col-2, .col-3, h2{
+        font-size: 1.2rem;
+    }
+    .col-1, .col-2, .col-3 p{
+        font-size: .7rem;
+    }
+    .gallery h1{
+        font-size: 2rem;
+    }
+    .pictures{
+        flex-direction: column;
+    }
+    
+    .pic{
+        width: 85%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .subfoot{
+        width: 90%;
+    }
+}
